@@ -1,4 +1,5 @@
 from ursina import *
+import random
 
 app = Ursina()
 
@@ -11,5 +12,9 @@ cube = Entity(model="cube", color = color.blue, scale=(2, 2, 2))
 
 def update():
     cube.rotation_y += time.dt * 100
+
+def input(key):
+    if key == "s":
+        cube.color = color.rgb(random.randint(1, 255), random.randint(1, 255), random.randint(1, 255))
 
 app.run()
