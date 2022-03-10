@@ -13,3 +13,4 @@ def update():
     cube.rotation_y += time.dt * 100
 
 app.run()
+print("Test")
