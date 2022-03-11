@@ -9,7 +9,7 @@ window.title = 'My Game'
 window.exit_button.visible = True
 window.fps_counter.enabled = True  
 
-cube = Entity(model = "cube", scale = (2, 2, 2))
+cube = Entity(model = "cube", scale = (2, 2, 2), position=(3, 3, 3))
 
 def update():
     cube.rotation_y += time.dt * 100
