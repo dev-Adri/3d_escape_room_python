@@ -1,2 +1,5 @@
-ug.bat
-run.bat
+*
+!assets
+!data
+!src
+!README.md
