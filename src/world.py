@@ -4,3 +4,6 @@ class WORLD:
 
     def add(self, object):
         self.objects.append(object)
+
+    def remove(self, object):
+        self.objects.pop(object)
