@@ -9,12 +9,13 @@ window.title = 'My Game'
 window.exit_button.visible = True
 window.fps_counter.enabled = True  
 
+cube = Entity(model = "cube", scale = (2, 2, 2))
+
 def update():
-    pass
+    cube.rotation_y += time.dt * 100
 
 def input(key):
-    pass
-    # if key == "s":
-    #     cube.color = color.rgb(random.randint(1, 255), random.randint(1, 255), random.randint(1, 255))
+    if key == "s":
+        cube.color = color.rgb(random.randint(1, 255), random.randint(1, 255), random.randint(1, 255))
 
 app.run()
