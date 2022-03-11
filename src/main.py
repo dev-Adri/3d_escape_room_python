@@ -8,7 +8,7 @@ window.title = 'My Game'
 # window.borderless = True
 window.exit_button.visible = True
 window.fps_counter.enabled = True  
-
+# TEST
 cube = Entity(model = "cube", scale = (2, 2, 2), position=(3, 3, 3))
 
 def update():
