@@ -14,7 +14,7 @@ window.title = 'My Game'
 window.exit_button.visible = True
 window.fps_counter.enabled = True  
 
-cube = Entity(model = "cube", scale = (2, 2, 2), position=(3, 3, 3))
+cube = Entity(model = "assets/e.obj", scale = (2, 2, 2), position=(0, 0, 0))
 
 world.add(cube)
 
