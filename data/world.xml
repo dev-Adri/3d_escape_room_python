@@ -1,0 +1,5 @@
+<world>
+    <objects>
+        <obj name="obj1", type="cube", positon=(2, 2, 2)>
+    </objects>
+</world>
